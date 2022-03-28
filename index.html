@@ -13,21 +13,13 @@
         <h4 class="hs-link col-9 flex-start"><a href="#">View high scores</a></h4>
         <h4 class="timer col-3 text-secondary">Time:</h4>
     </header>
-   <div id="start-quiz" class="row justify-content-center my-5">
-    <h1 class="text-primary">Coding Quiz Challenge</h1>
-    </div>
-    <div class="row justify-content-center">
-        <button id="start-btn" class="btn btn-lg btn-success">Start Quiz</button>
-    </div>
-   
-    <div id="quiz">
-
-    </div>
-
-    <div id="score-display">
-        
-    </div>
-  
+    <div class="quiz-container">
+        <div id="quiz"></div>
+      </div>
+      <button id="next">Next Question</button>
+    <button id="submit" class="btn btn-lg btn-success row d-flex justify-content-center">submit</button>
+    <div id="results"></div>
+    
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="./assets/js/script.js"></script>
 </body>
